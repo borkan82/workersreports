@@ -1,0 +1,195 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.headline {
+	background-color: #ebebeb;
+    height: 60px;
+    width: 1280px;
+    margin: auto;
+    font-family: Calibri,Tahoma,Verdana;
+    }
+
+.hlleft {
+	display: -webkit-inline-box;
+	margin-top: 13px;
+}
+
+.name {
+	font-size: 30px;
+    font-weight: bold;
+    width: auto;
+    margin: -3px 30px 0px 15px;
+}
+
+.newreport {
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+    margin-right: 10px;
+    background-color: #34b74e;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.myreports {
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+    background-color: #789cda;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hlright {
+	display: -webkit-inline-box;
+	float: right;
+}
+
+.hlright h4 {
+	margin-top: 21px;
+}
+
+#datumFrom {
+	height: 25px;
+    width: 110px;
+    margin: 15px 10px 0px 10px;
+}
+
+#datumTo {
+	height: 25px;
+    width: 110px;
+    margin: 15px 10px 0px 10px;
+}
+
+.search {
+	height: 35px;
+    width: 110px;
+    margin: 12px 10px 0px 0px;
+    background-color: #789cda;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tableup {
+    width: 1280px;
+    background-color: #405272;
+    height: 45px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.datetable {
+    padding-top: 12px;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.tableup-right {
+    display: -webkit-inline-box;
+    float: right;
+    height: 30px;
+    margin-top: -23px;
+    margin-right: 15px;
+}
+
+.hourstable {
+    padding-top: 2px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5;
+}
+
+.tableup-left h4 {
+    float: left;
+    margin: 12px 5px 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    line-height: 40px;
+}
+
+table td {
+  
+}
+
+.table-header {
+    background-color: #ebebeb;
+    height: 30px;
+    margin: 10px 0 10px 0;
+}
+
+ul {
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+ul li {
+    list-style-type: none;
+    display: -webkit-inline-box;
+    font-weight: bold;
+}
+
+.line-gray {
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+.add-more {
+    float: right;
+    height: 35px;
+    width: 194px;
+    margin: 0px 14px 0px 0px;
+    background-color: #789cda;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 12px;
+}
+
+.savereport {
+    width: 260px;
+    height: 40px;
+    font-size: 19px;
+    margin-right: 10px;
+    background-color: #34b74e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    font-size: 14px;
+    width: 1280px;
+    margin: 0 auto;
+}
+.footer p {
+    text-align: center;
+    color: #5A5A5A;
+}

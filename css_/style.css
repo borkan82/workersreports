@@ -1,0 +1,1096 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+}
+h4 {
+  /* width:338px;
+   font-size:25px;
+	margin-bottom:20px;
+	margin-top: 0px;
+	margin-left: 0px;*/
+}
+.main{
+	width:1300px;
+	min-height: 800px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -8px;
+}
+.headline{
+	/*float:left;
+	width:1300px;
+	height:60px; 
+	padding: 5px 0;
+	line-height:50px;
+	font-size: 40px;
+	text-align: left;
+	color:#111;
+	font-family: Calibri,Tahoma,Verdana;
+	font-weight: 700;
+	background-color: #E6E6E6;*/
+}
+.subHeadline {
+	float:left;
+	width:1300px;
+	height:35px;
+	padding: 10px 0;
+	line-height:30px;
+	font-size: 25px;
+	text-align: left;
+	color:#fff;
+	font-family: Calibri,Tahoma,Verdana;
+	background-color: #485A79;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.totalHours {
+	float:left;
+	width:1200px;
+	height:auto;
+	padding: 10px 0;
+	font-size: 17px;
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
+	text-align: left;
+	color:#555;
+	font-family: Calibri,Tahoma,Verdana;
+}
+.search {
+	margin-bottom:30px;
+}
+.arrow {
+	float: right;
+	display: block;
+	margin: -10px 75px 0px 0px;
+	position: relative;
+	z-index: 10;
+}
+.arrow_s {
+	float: right;
+	display: block;
+	margin: -10px -15px 0px 0px;
+	position: relative;
+	z-index: 11;
+}
+.codepw {
+	font-family:arial, helvetica, sans-serif;
+	width: 275px;
+	float: left;
+	position: relative;
+	display: block;
+	margin: 8px 0 0 430px;
+	padding-left: 0px;
+	font-size: 14px;
+	color: #444;
+}
+.product_specific {
+	float: left;
+	position: relative;
+	border-bottom:1px dotted #CCC;
+	display: block;
+	padding: 5px 5px 5px 5px;
+	margin-top: 0px;
+}
+.product {
+	font-family:arial, helvetica, sans-serif;
+	width: 460px;
+	padding: 10px;
+	float: left;
+	position: relative;
+	display: block;
+	margin: 0 0 0 0;
+}
+.conversation_cont {
+	width: 1200px;
+	position: relative;
+	float: left;
+	margin-top: 25px;
+	font-size: 15px;
+	border-bottom: 1px dotted #CCC;
+}
+.container_2A, .container_2B{
+	width:auto;
+	position: relative;
+	float: left;
+	display: none;	
+}
+.conversation_contA, .conversation_contB, .conversation_contC {
+	width:1100;
+	margin-left: 90px;
+	position: relative;
+	float: left;
+	display: none;
+}
+.conversation_cont_A0, .conversation_cont_A1, .conversation_cont_A2, .conversation_cont_A3, .conversation_cont_A4, .conversation_cont_A5, .conversation_cont_B1, .conversation_cont_B2, .conversation_cont_C1 {
+	width: 1100px;
+	position: relative;
+	float: left;
+	margin-top: 25px;
+	font-size: 15px;
+/*border-bottom: 1px dotted #CCC;*/
+}
+	.quest_fix {
+	padding: 5px 0;
+	width: 1200px;
+	float: left;
+	position: relative;
+	display: block;
+	border-bottom: 1px dotted #CCC;
+
+}
+	.quest_fix_h {
+	padding: 20px 0;
+	width: 600px;
+	float: left;
+	position: relative;
+	display: none;
+/*border-bottom: 1px dotted #CCC;*/
+}
+.quest_cont {
+width: 725px; /*950*/
+position: relative;
+float: left;
+margin: 20px 0 10px 0;
+padding: 8px;
+font-size: 15px;
+border: 1px solid #333;
+border-radius: 4px;
+/* border-bottom: 1px dotted #CCC;*/
+}
+.quest_cont_drugo {
+	height:43px;
+width: 640px;
+position: relative;
+float: left;
+margin: 0px 0 0px 50px;
+padding: 8px;
+font-size: 15px;
+border: 1px solid #333;
+border-radius: 3px;
+}
+.quest_podaci {
+width: 950px;
+display: none;
+position: relative;
+float: left;
+margin: 20px 0 10px 0;
+padding: 8px;
+font-size: 15px;
+border: none;
+}
+.sub_quest_cont {
+width: 845px;
+position: relative;
+float: left;
+margin: 5px 0 0 100px;
+padding: 8px;
+font-size: 15px;
+border: 1px solid #333;
+}
+.sub_quest_cont_h {
+display: none;
+width: 845px;
+position: relative;
+float: left;
+margin: 5px 0 0 100px;
+padding: 8px;
+font-size: 15px;
+border: 1px solid #333;
+}
+.checkBox {
+width: 760px;
+display: block;
+position: relative;
+float: left;
+margin: 0px 0px 8px 0px;	
+padding: 5px 5px 5px 5px;
+}
+.prodViewList{
+	float:right;
+	height:auto;
+	width: 300px;
+	padding: 5px;
+	margin: 0px 0px 0px 0px;
+	font-size: 14px;
+}
+.podaci_cont {
+height: 20px;
+width: 600px;
+display: block;
+position: relative;
+float: left;
+margin: 10px 0px 5px 0px;	
+padding: 5px 5px 5px 5px;
+border-bottom: 1px dotted #ccc;
+}
+.podatak_naziv {
+width: 150px;
+display: block;
+position: relative;
+float: left;
+margin: 0px 0px 0px 0px;	
+	
+}
+.podatak_sadrzaj {
+width: 350px;
+display: block;
+position: relative;
+float: left;
+margin: 0px 0px 5px 0px;	
+}
+.kolicina {
+width: 725px;
+display: block;
+position: relative;
+float: left;
+margin: 0px 0px 8px 0px;	
+padding: 5px 5px 5px 5px;
+}
+.cijene_cont {
+width: 770px;
+display: block;
+position: relative;
+float: left;
+margin: 0px 0px 8px 0px;	
+height: auto;
+}
+.cijeneButton {
+width: 315px;
+height: 50px;
+display: block;
+position: relative;
+float: left;
+margin: 4px 0px 8px 0px;	
+color: #000;
+	border:1px solid #111;	
+	font-size:16px;
+	font-family:arial, helvetica, sans-serif; 	
+	font-weight:bold; color: #000;
+ background-color: #fff; 
+}
+.nextToCijene {
+width: 400px;
+height: 50px;
+display: block;
+position: relative;
+float: left;
+margin: 4px 0px 8px 20px;	
+color: #777;
+border-bottom:1px dotted #ccc;	
+font-size:14px;
+font-family:arial, helvetica, sans-serif; 	
+background-color: #fff; 
+}
+ .cijeneButton:hover {
+	border:1px solid #000; 
+	background-color: #eee; 
+ 	}
+
+.cijene_i {
+width: 360px;
+display: block;
+position: relative;
+float: left;
+margin: 0px 0px 8px 50px;	
+padding: 5px 5px 5px 5px;
+background-color: #CEFFF1;
+}
+.note_txt {
+	width: 500px;
+	position: relative;
+	display: block;
+	margin: 5px 3px 5px;
+	font-size: 12px;
+}
+.note_operator {
+	float: left;
+	width: 740px; /*1000*/
+	position: relative;
+	display: block;
+	font-size: 14px;
+	color: #777;
+}
+.commentBox {
+float: right;
+width: 390px;
+margin: 20px 30px 0px 0px;
+height: 100px;
+
+}
+.crvenaS{
+	color: red;
+}
+.confirm {
+text-align: center;
+padding: 20px 0;
+background: #dfd;
+font-size: 40px;
+color: #000;
+width: 1200px;
+float: left;
+position: relative;
+display: none;
+border: 1px dotted #444;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+.tableHolder {
+    float:left;
+    width: 1200px;
+    height:auto;
+    margin-bottom:5px;
+    /*background-color: #999;*/
+    background: #fbfbfb; /* Old browsers */
+    border: 1px solid #888;
+    /*border-radius: 3px;*/
+    padding:10px;
+}
+/* -----  ORDER FORM START ------------------------------ */
+.container_Form {
+width:auto;
+position: relative;
+float: left;
+display: none;
+}
+.form_title {
+   width:338px;
+   font-size:25px;
+	margin-bottom:20px;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+.selectProduct {
+	margin-left: 20px;
+	position: relative;
+}
+.contCode {
+	width: 325px;
+	text-align: left;
+	color: #fff;
+	margin-left: 56px;
+	margin-top: 10px;
+	margin-bottom: -12px;
+	padding-left: 0px;
+	position: relative;
+	border-bottom: 1px #CCC dotted;
+}
+.form-content {
+	display: inline-block;
+	vertical-align: top;
+	text-align:right;
+	background-color: #27384a;
+	padding:10px 10px 10px 10px;
+	width:400px;
+	margin-bottom:0px;
+	margin-top: 10px;
+	margin-left: 20px;
+	height:605px;
+	position: relative;
+border:1px solid #1c5675;
+ background-color: #3c4c5b; 
+ -webkit-border-radius: 3px; 
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+input [type=text], textarea {
+	background-color: #fff;
+	border: 1px solid #000;
+	color: #000;
+	height: 100px;
+	outline: medium none;
+	padding-left: 10px;
+	width: 250px;
+	font-size: 13px;
+	resize: none;
+	}
+input [type=text], input {
+	background-color: #fff;
+	border: 1px solid #bbb;
+	color: #000;
+	height: 30px;
+	outline: medium none;
+	padding-left: 6px;
+	width: 250px;
+	font-size: 13px;
+	}
+input [type=text], select {
+	background-color: #fff;
+	border: 1px solid #bbb;
+	color: #000;
+	height: 32px;
+	outline: medium none;
+	padding-left: 10px;
+	width: 262px;
+	font-size: 12px;
+}
+input[type=text]:focus, input:focus, textarea:focus, select:focus{
+    border: 1px solid #bb0000;
+    box-shadow: 0 0 10px #cc0000;
+   }
+.form-input {
+	color: #fff;
+	position: relative;
+	float: right;
+	height: 35px;
+	margin-top: 5px;
+	padding-right: 20px;
+}
+.form-input-product {
+	    color: #fff;
+	    float: right;
+    	height: 35px;
+    	margin-top: 5px;
+    	padding-right: 20px;
+}
+.form-input-comment {
+    color: #fff;
+	float: right;
+	height: 35px;
+	margin-top: 5px;
+	padding-right: 20px;
+	width: 370px;
+}
+/* --------- END ORDER FORM --------------------------------- */
+.conversation_flow {
+   display: none;
+   position: relative;
+   width:1200px;
+   float: left;
+   font-size:16px;
+/*   border-bottom: 1px dotted #263849;*/
+}
+.conversation_flow h4 {
+   margin-bottom:2px;
+   font-size:25px;
+}
+.user {
+	text-decoration:underline;
+	padding:15px;
+	font-size:16px;
+}
+.newOrder {
+	text-decoration:underline;
+	padding:15px;
+	font-size:16px;
+}
+.select {
+	margin-left: 12px;
+}
+.answers {
+/*margin-left: 25px;*/
+}
+/*----------------- BUTTONS START -------------------------------- */
+.buttons {
+	position: relative;
+	display: block;
+    width: 620px;
+	float:left;
+	margin: 70px  0 0 105px;
+	padding-bottom: 10px;
+	text-align: right;
+
+}
+.bluebutton {
+	outline: none;
+	width: 120px;
+	height: 33px;
+	padding: 6px 10px 10px 10px; 
+	display:inline-block;
+	border:1px solid #111;	
+	font-size:16px;
+	font-family:arial, helvetica, sans-serif; 	
+	font-weight:bold; color: #000;
+ 	background-color: #fff; 
+ 	border-radius: 4px;
+
+}
+ .bluebutton:hover {
+	border:1px solid #000; 
+	background-color: #eee; 
+ 	}
+ .googleBtn {
+	outline: none;
+	width: 154px;
+	height: 16px;
+	padding: 6px 10px 10px 10px; 
+	display:inline-block;
+	border:1px solid #89c3eb;	
+	font-size:16px;
+	font-family:arial, helvetica, sans-serif; 	
+	font-weight:bold; 
+	color: #111;
+	text-align: center;
+    background: #ebf1f6; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ebf1f6 0%, #abd3ee 50%, #89c3eb 51%, #d5ebfb 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebf1f6), color-stop(50%,#abd3ee), color-stop(51%,#89c3eb), color-stop(100%,#d5ebfb)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #ebf1f6 0%,#abd3ee 50%,#89c3eb 51%,#d5ebfb 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#d5ebfb',GradientType=0 ); /* IE6-9 */
+	cursor:pointer;
+	border-radius: 3px;
+ }
+ .googleBtn:hover{
+ 	background: #d5ebfb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d5ebfb 1%, #89c3eb 48%, #89c3eb 48%, #abd3ee 50%, #ebf1f6 97%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#d5ebfb), color-stop(48%,#89c3eb), color-stop(48%,#89c3eb), color-stop(50%,#abd3ee), color-stop(97%,#ebf1f6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d5ebfb 1%,#89c3eb 48%,#89c3eb 48%,#abd3ee 50%,#ebf1f6 97%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d5ebfb 1%,#89c3eb 48%,#89c3eb 48%,#abd3ee 50%,#ebf1f6 97%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d5ebfb 1%,#89c3eb 48%,#89c3eb 48%,#abd3ee 50%,#ebf1f6 97%); /* IE10+ */
+	background: linear-gradient(to bottom,  #d5ebfb 1%,#89c3eb 48%,#89c3eb 48%,#abd3ee 50%,#ebf1f6 97%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5ebfb', endColorstr='#ebf1f6',GradientType=0 ); /* IE6-9 */
+
+ }
+/*----------------- BUTTONS END -------------------------------- */
+.clear {
+	clear:both;
+}
+/*milos*/
+.chosen-container
+{
+	width: 350px!important;
+}
+/*----------------- OTKAZIVANJE NARUDZBE -------------------------------- */
+.otkazBox {
+	float:left;
+	width:250px;
+	height:250px;
+	margin-top:-207px;
+	background-color: #fff;
+	border: 1px solid #222;
+	margin-left:2px;
+	display: none;
+    border-radius: 3px;
+}
+.obRadioHolder {
+	float: left;
+	width: 225px;
+	height: 50px;
+	color: #000;
+	font-size: 15px;
+	padding-left:10px;
+	line-height: 50px;
+	border-bottom: 1px dotted #ccc;
+}
+.obRadioHolder input {
+	width: 12px;
+	height: 12px;
+}
+/*----------------- OTKAZIVANJE NARUDZBE END-------------------------------- */
+
+.faqQuest{
+	margin-top: 2px;
+	position:relative;
+	float:left;
+	width:242px;
+	height: 52px;
+	color: #000;
+	font-size: 13px;
+	padding: 8px 8px;
+	text-align: left;
+	font-weight: bold;
+	border: 1px solid #333;
+	vertical-align: middle;
+    border-radius: 3px;
+}
+/*----------------------------------------------------------------------- */
+/*----------------- SPECIAL OFFER -------------------------------- */
+.specialHolder{
+    position:fixed;
+    background-color: #000;
+    opacity:0.8;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 100;
+}
+.specialOffer {
+    position:fixed;
+    width: 600px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -300px;
+    color: #000;
+    font-size: 15px;
+    padding:15px;
+    border: 1px dotted #bbb;
+    background:#e5e5e5;
+    border-radius: 5px;
+    z-index: 200;
+}
+.specQuest {
+	float:left;
+	width:580px;
+	color: #000;
+    margin-top:20px;
+    margin-bottom:10px;
+    padding: 8px;
+    font-size: 15px;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+.bigOrder {
+    margin-top: 30px;
+    outline: none;
+    width: 600px;
+    height: 50px;
+    padding: 6px 10px 10px 10px;
+    display:inline-block;
+    border:1px solid #89c3eb;
+    font-size:24px;
+    font-family:arial, helvetica, sans-serif;
+    font-weight:bold;
+    color: #fff;
+    text-align: center;
+    background: #ebf1f6; /* Old browsers */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+    background: #5ACE6D; /* Old browsers */
+    cursor:pointer;
+    border-radius: 3px;
+}
+.bigOrder:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ecb2d+0,72aa00+44,8eb92a+57,bfd255+100 */
+    background: #8ddd9D; /* Old browsers */
+}
+.GreyBtn{
+    border: 1px solid #ccc;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+    background: #e2e2e2; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(50%,#dbdbdb), color-stop(51%,#d1d1d1), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+
+}
+.GreyBtn:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+0,d1d1d1+50,dbdbdb+50,e2e2e2+100 */
+    background: #fefefe; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fefefe 0%, #d1d1d1 50%, #dbdbdb 50%, #e2e2e2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(50%,#d1d1d1), color-stop(50%,#dbdbdb), color-stop(100%,#e2e2e2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fefefe 0%,#d1d1d1 50%,#dbdbdb 50%,#e2e2e2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fefefe 0%,#d1d1d1 50%,#dbdbdb 50%,#e2e2e2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fefefe 0%,#d1d1d1 50%,#dbdbdb 50%,#e2e2e2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fefefe 0%,#d1d1d1 50%,#dbdbdb 50%,#e2e2e2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+
+}
+.delButton {
+    margin-top: 0px;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    padding: 6px 10px 10px 10px;
+    display:inline-block;
+    border:1px solid #89c3eb;
+    font-size:12px;
+    font-family:arial, helvetica, sans-serif;
+    font-weight:bold;
+    color: #fff;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f73333+0,f25e5e+50,f40c0c+51,ea1717+72,e82727+100 */
+    background: #f73333; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f73333 0%, #f25e5e 50%, #f40c0c 51%, #ea1717 72%, #e82727 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f73333), color-stop(50%,#f25e5e), color-stop(51%,#f40c0c), color-stop(72%,#ea1717), color-stop(100%,#e82727)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f73333 0%,#f25e5e 50%,#f40c0c 51%,#ea1717 72%,#e82727 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f73333 0%,#f25e5e 50%,#f40c0c 51%,#ea1717 72%,#e82727 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f73333 0%,#f25e5e 50%,#f40c0c 51%,#ea1717 72%,#e82727 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f73333 0%,#f25e5e 50%,#f40c0c 51%,#ea1717 72%,#e82727 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73333', endColorstr='#e82727',GradientType=0 ); /* IE6-9 */
+
+
+    cursor:pointer;
+    border-radius: 2px;
+}
+.delButton:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e82727+0,ea1717+25,ea1717+25,f40c0c+49,f40c0c+49,f25e5e+50,f73333+100 */
+    background: #e82727; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e82727 0%, #ea1717 25%, #ea1717 25%, #f40c0c 49%, #f40c0c 49%, #f25e5e 50%, #f73333 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e82727), color-stop(25%,#ea1717), color-stop(25%,#ea1717), color-stop(49%,#f40c0c), color-stop(49%,#f40c0c), color-stop(50%,#f25e5e), color-stop(100%,#f73333)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e82727 0%,#ea1717 25%,#ea1717 25%,#f40c0c 49%,#f40c0c 49%,#f25e5e 50%,#f73333 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e82727 0%,#ea1717 25%,#ea1717 25%,#f40c0c 49%,#f40c0c 49%,#f25e5e 50%,#f73333 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e82727 0%,#ea1717 25%,#ea1717 25%,#f40c0c 49%,#f40c0c 49%,#f25e5e 50%,#f73333 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e82727 0%,#ea1717 25%,#ea1717 25%,#f40c0c 49%,#f40c0c 49%,#f25e5e 50%,#f73333 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e82727', endColorstr='#f73333',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+/*----------------------------------------------------------------------- */
+/*----------------- LEFT NAVIGATION MENU -------------------------------- */
+.leftSide {
+	position:fixed;
+	float:left;
+	width: 220px;
+	height: 100%;
+	top:0;
+	left:0;
+    background-color: #222;
+    background-image: url('../images_/Black_background-8.jpg');
+
+
+}
+.menuHideButton{
+    float:right;
+    height:60px;
+    width:30px;
+    margin-top: 5px;
+    font-size: 18px;
+    color:#999;
+    line-height: 60px;
+    border: 1px solid #999;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.menuHideButton:hover{
+    color:#eee;
+    border: 1px solid #eee;
+}
+.menuShowButton{
+    float:right;
+    height:60px;
+    width:30px;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    cursor:pointer;
+    margin-right:-30px;
+    border-radius: 0 5px 5px 0;
+    color: #444;
+    border: 1px solid #444;
+}
+.menuShowButton:hover{
+    color:#000;
+    border: 1px solid #000;
+}
+
+
+.sideTop {
+	float:left;
+	height:200px;
+	width:200px;
+	margin-left: 5px;
+	padding-left:30px;
+	padding-top: 100px;
+	font-size: 16px;
+	color:#ddd;
+}
+.sideTop span{
+	font-size: 18px;
+	font-weight: bold;
+	color:#fff;
+}
+.navHolder {
+	float:right;
+	height:auto;
+	width:200px;
+
+}
+.mItem {
+	float:right;
+    color: #000;
+	width:180px;
+	height:40px;
+	line-height: 40px;
+	font-size: 20px;
+	margin-top:5px;
+	padding-right: 10px;
+	border-radius: 5px 0 0 5px;
+	cursor:pointer;
+	text-align: right;
+	background: #ebf1f6; /* Old browsers */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+50,b5c6d0+51,e0eff9+100;Grey+Gloss+%232 */
+    background: #f2f6f8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(50%,#d8e1e7), color-stop(51%,#b5c6d0), color-stop(100%,#e0eff9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 50%,#b5c6d0 51%,#e0eff9 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+
+}
+.mItem:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0eff9+0,b5c6d0+51,d8e1e7+52,f2f6f8+100 */
+    background: #e0eff9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e0eff9 0%, #b5c6d0 51%, #d8e1e7 52%, #f2f6f8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e0eff9), color-stop(51%,#b5c6d0), color-stop(52%,#d8e1e7), color-stop(100%,#f2f6f8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e0eff9 0%,#b5c6d0 51%,#d8e1e7 52%,#f2f6f8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e0eff9 0%,#b5c6d0 51%,#d8e1e7 52%,#f2f6f8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e0eff9 0%,#b5c6d0 51%,#d8e1e7 52%,#f2f6f8 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e0eff9 0%,#b5c6d0 51%,#d8e1e7 52%,#f2f6f8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0eff9', endColorstr='#f2f6f8',GradientType=0 ); /* IE6-9 */
+}
+.mItem a{
+    color: #000;
+    text-decoration: none;
+}
+.subItem {
+	float:right;
+	width:180px;
+	height:30px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-top:5px;
+	padding-right: 10px;
+	border-radius: 5px 0 0 5px;
+	cursor:pointer;
+	text-align: right;
+	color: #ddd;
+}
+
+.subItem a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.subItem a:hover{
+	color: #fff;
+}
+/*----------------- Chart -------------------------------- */
+.chartBox{
+	float:left;
+	width:1050px;
+	height: 400px;
+	line-height:30px;
+	font-size: 35px;
+	border: 1px solid #777;
+	text-align: left;
+	color:#111;
+	font-family: Calibri,Tahoma,Verdana;
+	margin-top:20px;
+}
+.totalBox {
+	float:left;
+	width:250px;
+	height: 250px;
+	line-height:30px;
+	font-size: 28px;
+	border: 1px solid #777;
+	text-align: center;
+	color:#333;
+	font-family: Calibri,Tahoma,Verdana;
+	margin-top: 20px;
+	margin-right: 15px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,fefefe+100 */
+background: #e2e2e2; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #e2e2e2 0%, #fefefe 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e2e2e2), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #e2e2e2 0%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #e2e2e2 0%,#fefefe 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #e2e2e2 0%,#fefefe 100%); /* IE10+ */
+background: linear-gradient(135deg,  #e2e2e2 0%,#fefefe 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.totalHead {
+	float:left;
+	width:210px;
+	height: 100px;
+	line-height:50px;
+	font-size: 25px;
+	border-bottom: 1px solid #ccc;
+	text-align: left;
+	color:#000;
+	font-family: Calibri,Tahoma,Verdana;
+	padding:10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.totalCount {
+	float:left;
+	width:230px;
+	height: 110px;
+	line-height:130px;
+	font-size: 70px;
+	border-bottom: 4px solid #666;
+	text-align: center;
+	color:#0c0;
+	font-family: Calibri,Tahoma,Verdana;
+	padding:10px;
+	font-weight: bold;
+}
+/*----------------- ALERT BOX -------------------------------- */
+
+.alertBox {
+    display:none;
+    position:fixed;
+    width:500px;
+    height:300px;
+    top:50%;
+    left:50%;
+    margin-top:-150px;
+    margin-left:-250px;
+    /*border: 2px solid #c00;*/
+    /*opacity:0.9;*/
+    /*background-color: #fdfdfd;*/
+
+}
+.alBoxTop {
+    width:100%;
+    height:80px;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+}
+.alBoxMiddle {
+    width:100%;
+    height:130px;
+    font-size: 20px;
+    line-height: 130px;
+    text-align: center;
+}
+.alBoxBottom {
+    width:100px;
+    height:80px;
+    font-size: 50px;
+    line-height: 80px;
+    margin-left: 100px;
+    text-align: center;
+}
+.alert-box {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:18px;
+    padding:10px 10px 10px 36px;
+    margin:10px;
+}
+.aBoxTitle {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.error {
+    background:#ffecec url('../images_/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+.success {
+    background:#e9ffd9 url('../images_/success.png') no-repeat 10px 50%;
+    border:1px solid #a6ca8a;
+}
+.warning {
+    background:#fff8c4 url('../images_/warning.png') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+}
+.notice {
+    background:#e3f7fc url('../images_/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+/***************** MAIN PAGE DAY TABLE **************************************/
+
+.dayTable {
+    float:left;
+    width:1300px;
+    height:auto;
+    margin-top: 8px;
+}
+.dayView {
+    width:1300px;
+    font-size: 15px;
+    font-family: Calibri, Tahoma, Verdana;
+
+
+}
+.dayView thead tr{
+    height: 20px;
+    padding: 2px 0;
+    cursor:pointer;
+
+}
+.dayView thead td{
+    text-align: center;
+    padding: 0 1px;
+    background-color: #E6E6E6;
+    color:#000;
+    font-weight:bold;
+} 
+.dayView tbody tr{
+    height: 20px;
+    padding: 2px 0;
+    cursor:pointer;
+
+}
+.dayView tbody tr:hover{
+   /* opacity:0.7;*/
+
+}
+.dayView tbody td{
+    height: 20px;
+    text-align: center;
+    padding: 0 1px;
+
+}
+.makeBigger {
+    height:20px;
+    overflow:hidden;
+}
+.dayTabRow {
+	background-color: #f5f5f5 !important;
+	border: 1px solid #eee !important;
+}
+.toolBar {
+	float:left;
+	width:630px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: -3px;
+	margin-bottom: 5px;
+}
+.bottomTable{
+	float:left;
+	width:1300px;
+	height:30px; 
+	border-top: 1px solid #E6E6E6;
+	margin-top: 15px;
+}
+.addRowBtn{
+	float:right;
+	width:150px;
+	height:40px; 
+	color: #fff;
+	background-color: #92B2FB;
+	line-height:40px;
+	text-align: center;
+}
+.countHours{
+	float:left;
+	width:250px;
+	height:40px; 
+	color: #000;
+	line-height:40px;
+	text-align: center;
+	font-size: 18px;
+	font-weight:bold;
+}
+.toolBtn {
+	float:left;
+	width:175px;
+	height: 40px;
+	line-height:40px;
+	font-size: 16px;
+	text-align: center;
+	color:#333;
+	font-family: Calibri,Tahoma,Verdana;
+	border: 1px solid #aaa;
+	background-color: #ccc;
+	margin-left: 5px;
+	cursor:pointer;
+}
+.toolBtn:hover{
+	border: 1px solid #ccc;
+	background-color: #eee;	
+}
+.toolActive {
+	background-color: #34b74e;	
+}
+.toolActive:hover {
+	background-color: #34b74e;	
+}
